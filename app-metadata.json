@@ -1,22 +1,13 @@
 {
-  "number": 14,
   "name": "wildduck",
   "source": "https://wildduck.email/",
-  "docker_hub": "nodemailer/wildduck",
-  "tag": "1",
+  "docker_image": "nodemailer/wildduck:1",
+  "version": "1",
   "repository": "https://github.com/waskevin/tnas-app-wildduck",
-  "dual_arch": true,
   "architectures": [
-    "amd64",
-    "arm",
-    "arm64"
+    "linux/amd64",
+    "linux/arm64"
   ],
-  "screenshot_path": "precheck-screenshots/wildduck/x86_64/run.png",
-  "screenshot_status": "pending",
-  "developer_name": "管浩良",
-  "developer_email": "k.kuan@qq.com",
-  "submission_status": "not_submitted",
-  "scheduled_publish": "20:00",
-  "runtime_status": "startup_failed",
-  "runtime_note": "app-1  | [ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379 app-1  | [ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379"
+  "description": "wildduck container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
 }
