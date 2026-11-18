@@ -1,0 +1,6 @@
+services:
+  wildduck:
+    image: nodemailer/wildduck:1
+    restart: unless-stopped
+    environment:
+      TZ: Asia/Shanghai
